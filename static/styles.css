@@ -11,3 +11,7 @@ input[type="radio"] {
     /* Not removed via appearance */
     margin: 0;
 }
+
+input[type="radio"]:checked {
+    border: dotted blue solid 2px;
+}
