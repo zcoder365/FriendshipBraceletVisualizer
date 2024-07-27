@@ -1,1 +1,1 @@
-# FriendshipVisualizer
+# Friendship Bracelet Visualizer
