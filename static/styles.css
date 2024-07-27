@@ -2,7 +2,12 @@ body {
     background-color: whitesmoke;
 }
 
+input[type="radio"] {
+    display: inline-flex;
+}
+
 input[type="radio"]:checked+label {
     border: 2px dotted blue;
     padding: 2px;
+    margin: 5px;
 }
