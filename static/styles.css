@@ -5,6 +5,7 @@ body {
 input[type="radio"] {
     display: inline-flex;
     visibility: hidden;
+    position: absolute;
 }
 
 input[type="radio"]:checked+label {
