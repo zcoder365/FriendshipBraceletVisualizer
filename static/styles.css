@@ -4,20 +4,20 @@ body {
 
 .pattern1 {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .pattern2 {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .pattern3 {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .dot {
