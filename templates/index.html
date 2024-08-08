@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends "template.html" %}
+{% block content %}
 
-        <title>Friendship Bracelets</title>
-        <link rel="stylesheet" href="static/styles.css">
-    </head>
+<form action="/generate-pattern">
+    <input type="color" id="color1" name="color1">
 
-    <body align="center">
-        <h1>Friendship Bracelet Designer</h1>
+    <input type="color" id="color2" name="color2">
 
-        <form action="/generate-pattern">
-            <input type="color" id="color1" name="color1">
+    <input type="color" id="color3" name="color3">
 
-            <input type="color" id="color2" name="color2">
+    <br><br>
 
-            <input type="color" id="color3" name="color3">
+    <input type="submit" value="Use These Colors">
+</form>
 
-            <br><br>
-
-            <input type="submit" value="Use These Colors">
-        </form>
-    </body>
-</html>
+{% endblock %}
