@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
@@ -14,6 +14,6 @@ def generatePatterns():
     
     print(f"{color1}\n{color2}\n{color3}")
     
-    return render_template("results.html")
+    return jsonify(color=color1)
 
 app.run(debug=True)
