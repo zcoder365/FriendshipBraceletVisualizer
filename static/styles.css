@@ -42,11 +42,12 @@ body {
     width: 10px;
     height: 10px;
     background-color: skyblue;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: inline-flex;
     padding: 0px;
     margin: 0px;
     border: 1px black solid;
+    /* transform: rotate(45deg); */
 }
 
 .row {
