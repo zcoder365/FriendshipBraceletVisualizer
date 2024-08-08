@@ -20,6 +20,6 @@ def generatePatterns():
         "color 3": color3
     }
     
-    return jsonify(colors=colors)
+    return render_template("results.html", colors=jsonify(colors=colors))
 
 app.run(debug=True)
