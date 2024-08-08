@@ -3,7 +3,7 @@ body {
 }
 
 .pattern1 {
-    justify-self: center;
+    display: inline-block;
 }
 
 .dot {
