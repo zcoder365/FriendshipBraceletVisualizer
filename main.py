@@ -14,6 +14,12 @@ def generatePatterns():
     
     print(f"{color1}\n{color2}\n{color3}")
     
-    return jsonify(color=color1)
+    colors = {
+        "color 1": color1,
+        "color 2": color2,
+        "color 3": color3
+    }
+    
+    return jsonify(colors=colors)
 
 app.run(debug=True)
