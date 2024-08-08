@@ -20,6 +20,18 @@ body {
     margin-right: 10px;
 }
 
+.pattern1-container {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pattern2-container {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .dot {
     width: 20px;
     height: 20px;
