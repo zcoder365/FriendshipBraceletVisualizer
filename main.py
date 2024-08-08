@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/generate-patterns")
+@app.route("/generate-pattern", methods=["POST"])
 def generatePatterns():
-    return render_template("results")
+    return render_template("results.html")
 
 app.run(debug=True)
