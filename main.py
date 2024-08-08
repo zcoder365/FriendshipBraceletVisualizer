@@ -8,9 +8,9 @@ def home():
 
 @app.route("/generate-pattern", methods=["POST"])
 def generatePatterns():
-    color1 = request.form["color1"]
-    color2 = request.form["color2"]
-    color3 = request.form["color3"]
+    color1 = "red"
+    color2 = "blue"
+    color3 = "white"
     
     print(f"{color1}\n{color2}\n{color3}")
     
