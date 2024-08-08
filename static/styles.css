@@ -18,3 +18,21 @@ body {
     margin: 0px;
     display: inline-flex;
 }
+
+.color-sq1 {
+    border: 2px black solid;
+    width: 10px;
+    height: 10px;
+}
+
+.color-sq2 {
+    border: 2px black solid;
+    width: 10px;
+    height: 10px;
+}
+
+.color-sq3 {
+    border: 2px black solid;
+    width: 10px;
+    height: 10px;
+}
