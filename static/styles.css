@@ -16,7 +16,7 @@ body {
 .row {
     padding: 0px;
     margin: 0px;
-    display: inline-flex;
+    display: flex;
 }
 
 .color-sq1 {
