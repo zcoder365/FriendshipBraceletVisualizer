@@ -9,7 +9,7 @@ body {
 .dot {
     width: 20px;
     height: 20px;
-    background-color: blue;
+    background-color: skyblue;
     border-radius: 50%;
     display: inline-flex;
     padding: 0px;
