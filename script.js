@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
         
         .then(data => {
             // Change the background colors of the three elements using the retrieved colors
-            document.getElementById('color-box-1').style.backgroundColor = data.color1;
-            document.getElementById('color-box-2').style.backgroundColor = data.color2;
-            document.getElementById('color-box-3').style.backgroundColor = data.color3;
+            document.getElementById('color-sq1').style.backgroundColor = data.color1;
+            document.getElementById('color-sq2').style.backgroundColor = data.color2;
+            document.getElementById('color-sq3').style.backgroundColor = data.color3;
         })
         
         .catch(error => console.error('Error:', error));  // Log any errors that occur during the fetch
