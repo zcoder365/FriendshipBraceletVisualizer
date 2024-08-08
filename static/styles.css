@@ -6,6 +6,14 @@ body {
     display: inline-block;
 }
 
+.pattern2 {
+    display: inline-block;
+}
+
+.pattern3 {
+    display: inline-block;
+}
+
 .dot {
     width: 20px;
     height: 20px;
