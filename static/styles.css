@@ -7,12 +7,14 @@ body {
     width: 10px;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-flex;
     padding: 0px;
     margin: 0px;
+    font-size: 0px;
 }
 
 .row {
     padding: 0px;
     margin: 0px;
+    display: inline-flex;
 }
