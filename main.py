@@ -12,6 +12,11 @@ def generatePatterns():
     updated_color2 = request.form.get('color2', 'green')
     updated_color3 = request.form.get('color3', 'blue')
     
-    return render_template("results.html")
+    # Update colors based on form input
+    color1 = request.form.get('color1', updated_color1)
+    color2 = request.form.get('color2', updated_color2)
+    color3 = request.form.get('color3', updated_color3)
+    
+    return render_template("results.html", color1=color1, color2=color2, color3=color3)
 
 app.run(debug=True)
