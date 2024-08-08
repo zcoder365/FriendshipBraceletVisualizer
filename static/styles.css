@@ -14,7 +14,7 @@ body {
     display: inline-flex;
     padding: 0px;
     margin: 0px;
-    border: black solid 2px;
+    border: 2px solid black;
 }
 
 .row {
