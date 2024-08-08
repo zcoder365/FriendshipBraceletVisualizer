@@ -23,18 +23,24 @@ body {
     border: 2px black solid;
     width: 10px;
     height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .color-sq2 {
     border: 2px black solid;
     width: 10px;
     height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .color-sq3 {
     border: 2px black solid;
     width: 10px;
     height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .chosen-colors {
