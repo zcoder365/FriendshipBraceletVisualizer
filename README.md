@@ -61,30 +61,6 @@ FriendshipBraceletVisualizer/
 └── README.md               # This file
 ```
 
-## Code Logic Overview
-
-### Core Components
-
-**Pattern Engine** (`patterns.js`):
-- Contains algorithms for generating different bracelet patterns
-- Handles mathematical calculations for knot positions and string arrangements
-- Supports various pattern types: chevron, diamond, candy stripe, alpha patterns
-
-**Color Management** (`colorPicker.js`):
-- Manages color selection and application to pattern elements
-- Provides color palette functionality with hex color support
-- Handles color validation and conversion between different color formats
-
-**Visualization Engine** (`visualizer.js`):
-- Renders the bracelet pattern using HTML5 Canvas or SVG
-- Calculates proper scaling and positioning for realistic bracelet appearance
-- Handles real-time updates when colors or patterns change
-
-**Main Application** (`main.py`):
-- Coordinates interactions between different components
-- Manages application state and user interactions
-- Handles event listeners for user input (clicks, color changes, pattern selection)
-
 ## Supported Patterns
 
 - **Chevron**: Classic V-shaped pattern
