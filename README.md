@@ -50,7 +50,6 @@ To run this project locally, you'll need:
 
 ```
 FriendshipBraceletVisualizer/
-│
 ├── README.md
 ├── static/
 │   └── styles.css          # Main stylesheet for layout and design
