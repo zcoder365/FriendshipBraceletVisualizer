@@ -5,7 +5,7 @@ A web-based tool designed to help friendship bracelet makers visualize their bra
 ## Features
 
 - **Color Visualization**: Preview how different color combinations will look in your bracelet patterns
-- **Pattern Selection**: Choose from various friendship bracelet patterns including chevron, diamond, candy stripe, and more
+- **Pattern Selection**: Choose from various friendship bracelet patterns
 - **Interactive Design**: Click and modify patterns in real-time to see immediate results
 - **Color Palette**: Wide selection of colors to match your available thread colors
 - **Pattern Export**: Save or export your designed patterns for future reference
