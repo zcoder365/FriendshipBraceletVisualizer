@@ -26,6 +26,5 @@ def run_flask():
 
 if __name__ == "__main__":
     threading.Thread(target=run_flask).start()
-    webview.create_window("My App", "http://127.0.0.1:5001", width=800, height=600)
+    webview.create_window("Friendship Bracelet Visualizer", "http://127.0.0.1:5001", width=800, height=600)
     webview.start()
-    app.run(port=5001, use_reloader=False)  # Use a different port for webview
