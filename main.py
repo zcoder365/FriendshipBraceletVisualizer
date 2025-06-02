@@ -1,3 +1,5 @@
+import webview
+import threading
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
@@ -19,4 +21,9 @@ def generatePatterns():
     
     return render_template("results.html", color1=color1, color2=color2, color3=color3)
 
-app.run(debug=True)
+def run_flask():
+    app.run()
+
+if __name__ == "__main__":
+    threading.Thread(target=run_flask).start()
+    webview.create_window("My App", "http://127.0.0.1:5000")
